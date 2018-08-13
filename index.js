@@ -2,6 +2,7 @@
 function theBeatlesPlay(musicians, instruments){
   var answer = []
   for(var x=0;x< musicians.length();x++){
-    answer.push("")
+    answer.push('${musicians[x]} plays ${instruments[x]}')
   }
+  return answer
 }
